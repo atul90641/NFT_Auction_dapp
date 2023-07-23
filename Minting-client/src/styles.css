@@ -1,0 +1,72 @@
+.App {
+  background:rgb(248, 198, 190);
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+.photo
+{
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  padding-left: 38%;
+}
+
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/* Search input field */
+.boxField {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-color: #000000;
+  border-radius: 4px;
+  outline: none;
+  font-size: 15px;
+  width: 800px;
+  height: 30px;
+}
+
+/* Search button */
+.search-button {
+  margin-left: 8px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+.center
+{
+  position: absolute;
+  left: 45%;
+}
+/* Search button hover effect */
+.search-button:hover {
+  background-color: #45a049;
+}
+
+.header-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  padding-left: 20%;
+  padding-top: 150px;
+ }
+
+ .nft-title{
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  padding-left: 20%;
+  padding-top: 50px;
+  padding-left: 40%;
+ }
